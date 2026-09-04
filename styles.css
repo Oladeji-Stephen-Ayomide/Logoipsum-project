@@ -8,6 +8,7 @@
 html,
 body {
     margin: 0 5rem;
+    scroll-behavior: smooth;
 }
 
 /* heading section styling starts here */
@@ -67,7 +68,9 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    margin-top: 6em;
+    margin-top: 1em;
+    padding-top: 6em;
+
 }
 
 .section-one__Fdiv {
