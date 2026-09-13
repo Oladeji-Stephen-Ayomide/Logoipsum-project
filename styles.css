@@ -448,11 +448,12 @@ header {
         position: fixed;
         top: 0;
         right: 0;
+        bottom: 0;
         height: 100vh;
         width: 50%;
         z-index: 999;
         box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-        padding: 1em;
+        padding: 1em 1em 2em 1em;
         backdrop-filter: blur(10px);
     }
 
@@ -748,10 +749,6 @@ header {
 }
 
 @media screen and (max-width: 400px) {
-    .nav__container .dropdown {
-        /* width: 100%; */
-    }
-
     .dropdown .link:last-child {
         padding: 1em;
         border-radius: 10px;
