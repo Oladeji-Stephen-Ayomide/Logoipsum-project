@@ -19,14 +19,13 @@ header {
 .nav__container {
     font-family: "DM Sans", sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 0;
     height: 80px;
     width: 100%;
     z-index: 100;
-    padding: 0 5rem;
     background-color: #eeeeee;
     flex-wrap: wrap;
 }
@@ -42,8 +41,8 @@ header {
 .nav__container nav {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
-    gap: 3rem;
+    align-items: center;
+    width: 100%;
 }
 
 .link {
@@ -93,7 +92,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* gap: 10rem; */
-    margin-top: 5.5em;
+    padding-top: 5.5em;
     /* padding-top: 6em; */
 }
 
@@ -132,7 +131,7 @@ header {
 }
 
 .fa-arrow-down {
-    padding: 2em;
+    padding: 1em;
     /* width: 50px;     */
     border-radius: 50%;
     border: 1px solid #E7E7E7;
@@ -199,7 +198,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 2em;
-    margin: 7rem 0;
+    padding: 5rem 0;
 }
 
 .section-four__container div {
@@ -236,6 +235,7 @@ header {
     flex-direction: column;
     gap: 8rem;
     width: 100%;
+    padding-top: 5rem;
 }
 
 .sec-five__Fdiv {
@@ -384,7 +384,7 @@ header {
 } */
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
 
     /* heading section styling starts here */
     header {
@@ -482,6 +482,10 @@ header {
         font-size: 17px;
     }
 
+        .nav__container nav {
+            gap: 2em;
+        }
+
     .nav__container nav a:hover {
         border-bottom: none;
         color: #19191B;
@@ -513,7 +517,7 @@ header {
         width: 100%;
     }
 
-    .fa-arrow-down {
+    .section-one__Fdiv .fa-arrow-down {
         display: none;
     }
 
